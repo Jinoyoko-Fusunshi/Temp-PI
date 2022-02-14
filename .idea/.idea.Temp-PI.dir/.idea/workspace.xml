@@ -91,8 +91,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="npm.run" />
-        <item itemvalue="npm.build" />
         <item itemvalue="npm.start" />
+        <item itemvalue="npm.build" />
+        <item itemvalue="npm.run" />
+        <item itemvalue="npm.build" />
       </list>
     </recent_temporary>
   </component>

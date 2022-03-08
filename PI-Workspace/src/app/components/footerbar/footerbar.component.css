@@ -1,0 +1,49 @@
+div#footer
+{
+  display: flex;
+  height: 100px;
+
+  background: #4d3aff;
+  box-shadow: 0 -2px 8px #24292e;
+}
+
+div .footer-column
+{
+  display: inline-flex;
+  width: 100%;
+}
+
+div#github
+{
+  display: inline-flex;
+  flex-direction: row;
+  width: auto;
+  height: 100%;
+  margin: auto auto auto 10%;
+
+  transition: 350ms ease-in-out;
+}
+
+div#github:hover
+{
+  cursor: pointer;
+
+  transition: 350ms ease-in-out;
+}
+
+div#github img
+{
+  height: 60%;
+  margin: auto;
+}
+
+div#github a
+{
+  width: 100%;
+  height: auto;
+  margin: auto 10px auto 10px;
+
+  color: #eeeeee;
+  font-size: 36px;
+  text-decoration: none;
+}

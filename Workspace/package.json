@@ -1,0 +1,22 @@
+{
+  "name": "workspace",
+  "version": "1.0.0",
+  "description": "School project for reading sensors and data from an Raspberry Pi 4",
+  "main": "server-main.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "Temp-PI"
+  },
+  "keywords": [
+    "sensors"
+  ],
+  "author": "Jinoyoko Fusunshi, GodDevourer",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3",
+    "xmlhttprequest": "^1.8.0"
+  }
+}

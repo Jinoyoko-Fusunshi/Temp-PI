@@ -5,7 +5,101 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d94003cb-48be-4939-a572-828835448821" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/dummy.js" beforeDir="false" afterPath="$PROJECT_DIR$/PI-Workspace/dummy.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Temp-PI.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Temp-PI.dir/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PI-Workspace/.browserslistrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PI-Workspace/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PI-Workspace/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PI-Workspace/.vscode/extensions.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PI-Workspace/.vscode/launch.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PI-Workspace/.vscode/tasks.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PI-Workspace/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PI-Workspace/angular.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PI-Workspace/buildSolution.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PI-Workspace/dummy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PI-Workspace/karma.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PI-Workspace/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PI-Workspace/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PI-Workspace/server.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PI-Workspace/src/app/app-routing.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PI-Workspace/src/app/app.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PI-Workspace/src/app/app.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PI-Workspace/src/app/app.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PI-Workspace/src/app/app.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PI-Workspace/src/app/app.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PI-Workspace/src/app/components/footerbar/footerbar.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PI-Workspace/src/app/components/footerbar/footerbar.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PI-Workspace/src/app/components/footerbar/footerbar.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PI-Workspace/src/app/components/footerbar/footerbar.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PI-Workspace/src/app/components/navigator/navigator.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PI-Workspace/src/app/components/navigator/navigator.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PI-Workspace/src/app/components/navigator/navigator.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PI-Workspace/src/app/components/navigator/navigator.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PI-Workspace/src/app/components/toolbar/toolbar.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PI-Workspace/src/app/components/toolbar/toolbar.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PI-Workspace/src/app/components/toolbar/toolbar.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PI-Workspace/src/app/components/toolbar/toolbar.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PI-Workspace/src/app/views/home/home.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PI-Workspace/src/app/views/home/home.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PI-Workspace/src/app/views/home/home.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PI-Workspace/src/app/views/home/home.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PI-Workspace/src/app/views/sensors-view/sensors-view.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PI-Workspace/src/app/views/sensors-view/sensors-view.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PI-Workspace/src/app/views/sensors-view/sensors-view.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PI-Workspace/src/app/views/sensors-view/sensors-view.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PI-Workspace/src/assets/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PI-Workspace/src/assets/logos/GitHub/GitHub-Mark-120px-plus.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PI-Workspace/src/assets/logos/GitHub/GitHub-Mark-32px.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PI-Workspace/src/assets/logos/GitHub/GitHub-Mark-64px.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PI-Workspace/src/assets/logos/GitHub/GitHub-Mark-Light-120px-plus.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PI-Workspace/src/assets/logos/GitHub/GitHub-Mark-Light-32px.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PI-Workspace/src/assets/logos/GitHub/GitHub-Mark-Light-64px.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PI-Workspace/src/backup/app-routing.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PI-Workspace/src/backup/app.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PI-Workspace/src/backup/app.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PI-Workspace/src/backup/app.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PI-Workspace/src/backup/app.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PI-Workspace/src/backup/app.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PI-Workspace/src/environments/environment.prod.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PI-Workspace/src/environments/environment.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PI-Workspace/src/environments/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PI-Workspace/src/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PI-Workspace/src/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PI-Workspace/src/main.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PI-Workspace/src/polyfills.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PI-Workspace/src/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PI-Workspace/src/test.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PI-Workspace/tsconfig.app.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PI-Workspace/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PI-Workspace/tsconfig.spec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/raspberry-gui/.browserslistrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/raspberry-gui/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/raspberry-gui/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/raspberry-gui/.vscode/extensions.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/raspberry-gui/.vscode/launch.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/raspberry-gui/.vscode/tasks.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/raspberry-gui/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/raspberry-gui/angular.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/raspberry-gui/karma.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/raspberry-gui/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/raspberry-gui/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/raspberry-gui/src/app/app-routing.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/raspberry-gui/src/app/app.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/raspberry-gui/src/app/app.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/raspberry-gui/src/app/app.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/raspberry-gui/src/app/app.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/raspberry-gui/src/app/app.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/raspberry-gui/src/assets/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/raspberry-gui/src/environments/environment.prod.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/raspberry-gui/src/environments/environment.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/raspberry-gui/src/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/raspberry-gui/src/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/raspberry-gui/src/main.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/raspberry-gui/src/polyfills.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/raspberry-gui/src/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/raspberry-gui/src/test.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/raspberry-gui/tsconfig.app.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/raspberry-gui/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/raspberry-gui/tsconfig.spec.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,9 +109,21 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
         <option value="JavaScript File" />
       </list>
     </option>
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Workspace/package-lock.json" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -31,72 +137,24 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="javascript.nodejs.core.library.configured.version" value="16.13.2" />
+    <property name="javascript.nodejs.core.library.typings.version" value="16.11.26" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="ts.external.directory.path" value="D:\Repos\Temp-PI\Temp-PI\PI-Workspace\node_modules\typescript\lib" />
+    <property name="ts.external.directory.path" value="D:\Programs\JetBrains\apps\Rider\ch-0\213.6775.4\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="npm.run">
-    <configuration name="Angular Temp-PI " type="ShConfigurationType">
-      <option name="SCRIPT_TEXT" value="" />
-      <option name="INDEPENDENT_SCRIPT_PATH" value="false" />
-      <option name="SCRIPT_PATH" value="$PROJECT_DIR$/PI-Workspace/buildSolution.bat" />
-      <option name="SCRIPT_OPTIONS" value="" />
-      <option name="INDEPENDENT_SCRIPT_WORKING_DIRECTORY" value="true" />
-      <option name="SCRIPT_WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="INDEPENDENT_INTERPRETER_PATH" value="true" />
-      <option name="INTERPRETER_PATH" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="EXECUTE_IN_TERMINAL" value="true" />
-      <option name="EXECUTE_SCRIPT_FILE" value="true" />
-      <envs />
+  <component name="RunManager">
+    <configuration name="MainServer" type="NodeJSConfigurationType" path-to-js-file="server-main.js" working-dir="$PROJECT_DIR$/Workspace">
       <method v="2" />
     </configuration>
-    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/PI-Workspace/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="build" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
-      <method v="2" />
-    </configuration>
-    <configuration name="run" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/PI-Workspace/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="run" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
-      <method v="2" />
-    </configuration>
-    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/PI-Workspace/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="start" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
-      <method v="2" />
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="npm.run" />
-        <item itemvalue="npm.start" />
-        <item itemvalue="npm.build" />
-        <item itemvalue="npm.run" />
-        <item itemvalue="npm.build" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -110,6 +168,9 @@
       <workItem from="1643503268932" duration="2622000" />
       <workItem from="1644701797285" duration="22424000" />
       <workItem from="1644764960423" duration="17289000" />
+      <workItem from="1646764417039" duration="22577000" />
+      <workItem from="1647134960928" duration="14332000" />
+      <workItem from="1647182495918" duration="5110000" />
     </task>
     <servers />
   </component>

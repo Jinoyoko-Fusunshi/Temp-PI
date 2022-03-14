@@ -1,0 +1,75 @@
+.tableSection {
+  display: inline-flex;
+  flex-direction: column;
+  flex: 1;
+  width: 100%;
+  padding: 0;
+
+  border-radius: 12px;
+  background: #24292e;
+  box-shadow: 1px 2px 4px #333333, 1px 8px 8px #24292e;
+}
+
+div.tableHead {
+  padding: 0;
+  width: auto;
+  height: auto;
+  background: rgba(0,0,0,0.54);
+  border-radius: 12px 12px 0 0;
+}
+
+div.tableHead a {
+  display: block;
+  width: auto;
+  margin: auto;
+}
+
+div.tableHeadLine
+{
+  display: inline-flex;
+  flex: 1;
+  padding: 0;
+  width: 100%;
+
+  font-size: 24px;
+  color: #ffffff;
+}
+
+svg.tableIcon
+{
+  display: block;
+  width: 64px;
+  min-height: 64px;
+  height: 100%;
+  margin: 8px;
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  white-space: pre;
+
+  color: #c2c3c4;
+}
+
+div.entry {
+  display: flex;
+  width: auto;
+  height: 100%;
+  padding: 18px;
+
+  transition: 250ms ease-in-out;
+}
+
+div.entry:hover {
+  background: #888888;
+  color: #ffffff;
+
+  transition: 250ms ease-in-out;
+  cursor: pointer;
+}
+
+div.entry a{
+  width: 100%;
+}

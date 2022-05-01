@@ -1,5 +1,5 @@
-const HTMLExtension = ".html";
-const CSSExtension = ".css";
+export const HTMLExtension = ".html";
+export const CSSExtension = ".css";
  
 // Base derived HTML object handle.
 // When creating derived custom components you must create other objects which implements 
@@ -24,6 +24,8 @@ export class BaseComponent {
     constructor(name) {
         this._tagName = name;
     }
+    
+    init() {}
     
     getElement(){
         return this._baseElement;

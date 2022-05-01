@@ -1,4 +1,4 @@
-import {BaseComponent} from "../component.js";
+import {BaseComponent} from "../../scripts/client/component.js";
 
 class NavigationElement extends HTMLElement {
     

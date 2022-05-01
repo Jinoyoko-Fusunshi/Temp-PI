@@ -1,5 +1,5 @@
 import {BaseComponent} from "../../scripts/client/component.js";
-import {BaseURL, HTTPMethods, HTTPStatusCodes} from "../../scripts/client/common.js";
+import {HTTPMethods, HTTPStatusCodes} from "../../scripts/client/common.js";
 
 class ToolbarElement extends HTMLElement {
 
@@ -21,31 +21,57 @@ export class ToolBar extends BaseComponent {
     }
     
     init() {
-        /*
-        const BarSectionId = "titlebar";
+        let sections = document.getElementsByClassName("dataSection");
+        let dateResult = this.sendDateRequest();
+
+        // Initialize dynamically the 'a' elements with unique identifiers.
+        let timeLabel = document.createElement("a");
+        timeLabel.className = "timeLabel";
+        timeLabel.innerText = "Uhrzeit: " + dateResult.timeString;
+
+        sections[0].after(timeLabel);
         
-        let sections =document.querySelectorAll("body");
+        let dateLabel = document.createElement("a");
+        dateLabel.className = "dateLabel";
+        dateLabel.innerText = "Datum: " + dateResult.dateString;
+
+        sections[1].after(dateLabel);
         
-        console.log(sections.item(0));
-        
+        // Adds a timer events every second to update the display data segments.
+        setInterval(() => {
+           this.refreshDateDisplay()
+        }, 1000);
+    }
+    
+    // The local time request to receive the current date parameters from the host device.
+    sendDateRequest()
+    {
         let request = new XMLHttpRequest();
-        let dateTime;
- 
+        let result;
+        
         request.onreadystatechange = function() {
             if (this.status === HTTPStatusCodes.Success)
-                dateTime = JSON.parse(this.responseText);
+                result = JSON.parse(this.responseText);
             else if(this.status === HTTPStatusCodes.NotFound)
-                dateTime = null;
+                result = null;
         }
         
         request.open(HTTPMethods.Get, "/time", false);
         request.send();
         
-        let timeLabel = document.createElement("a");
-        timeLabel.innerText = dateTime.timeString;
+        return result;
+    }
+    
+    // Update the text of the selected 'a' elements of the Toolbar component by 
+    // a new '/time' request.
+    refreshDateDisplay()
+    {
+        let dateResult = this.sendDateRequest();
+
+        let timeLabel = document.getElementsByClassName("timeLabel")[0];
+        let dateLabel= document.getElementsByClassName("dateLabel")[0];
         
-        let dateLabel = document.createElement("a");
-        dateLabel.innerText = dateTime.dateString;
-        */
+        timeLabel.innerHTML = "Uhrzeit: " + dateResult.timeString;
+        dateLabel.innerHTML = "Datum: " + dateResult.dateString;
     }
 }

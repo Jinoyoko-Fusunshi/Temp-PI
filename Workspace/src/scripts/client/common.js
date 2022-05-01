@@ -9,7 +9,7 @@ export const HTTPMethods = {
     Get: "GET"
 }
 
-export const BaseURL = "http://localhost:3001";
+export const BaseURL = ReadURI();
 
 // All HTTP content types which are needed to write into the head of a HTTP request.
 export const ContentTypes = {
@@ -22,3 +22,11 @@ export const ContentTypes = {
     ICON: 'image/png',
     NONE: '',
 };
+
+function ReadURI(){
+    let protocol = window.location.protocol;
+    let domain = window.location.hostname;
+    let port = window.location.port;
+    
+    return protocol + '//' + domain + ':' + port;
+}

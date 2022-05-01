@@ -22,7 +22,15 @@ let ComponentCollection = [
 // Initialize all custom components for the website.
 function init(){
     for(let i = 0; i < ComponentCollection.length; ++i) {
+        
+        // TODO: implement checkup and logic for components, which need async and/or later initialization due to 
+        //  dependencies to other elements and/or components for this DOM.
+        if(ComponentCollection[i] === ToolBar)
+            continue;
+        
         let component = new ComponentCollection[i]();
+        
+        // Register custom HTML elements to the DOM.
         customElements.define(component.getTagName(), component.getElement());
         
         component.init();
@@ -35,6 +43,17 @@ function init(){
             includeSourceContent(component.getTagName(), ComponentsPath + component.getSourcePath());
         }
     }
+    
+    // Create toolbar at the end to avoid dependency struggles. See upper task.
+    let index = ComponentCollection.indexOf(ToolBar);
+    let toolBar = new ComponentCollection[index]();
+    
+    customElements.define(toolBar.getTagName(), toolBar.getElement());
+
+    includeStyleSheet(ComponentsPath + toolBar.getStylePath());
+    includeSourceContent(toolBar.getTagName(), ComponentsPath + toolBar.getSourcePath());
+    
+    toolBar.init();
 }
 
 // Main function.

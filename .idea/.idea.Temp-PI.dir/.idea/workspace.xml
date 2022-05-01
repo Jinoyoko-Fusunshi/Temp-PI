@@ -5,19 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d94003cb-48be-4939-a572-828835448821" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Workspace/src/scripts/server/server-main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Temp-PI.dir/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Temp-PI.dir/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Temp-PI.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Temp-PI.dir/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Workspace/server-main.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Workspace/src/components/app-context/app-context.html" beforeDir="false" afterPath="$PROJECT_DIR$/Workspace/src/components/app-context/app-context.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Workspace/src/components/app-context/app-context.js" beforeDir="false" afterPath="$PROJECT_DIR$/Workspace/src/components/app-context/app-context.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Workspace/src/components/component.js" beforeDir="false" afterPath="$PROJECT_DIR$/Workspace/src/scripts/client/component.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Workspace/src/components/footer-bar/footer-bar.js" beforeDir="false" afterPath="$PROJECT_DIR$/Workspace/src/components/footer-bar/footer-bar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Workspace/src/components/navigation-bar/navigation-bar.js" beforeDir="false" afterPath="$PROJECT_DIR$/Workspace/src/components/navigation-bar/navigation-bar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Workspace/src/components/navigation-bar/navigation-bar.css" beforeDir="false" afterPath="$PROJECT_DIR$/Workspace/src/components/navigation-bar/navigation-bar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Workspace/src/components/navigation-bar/navigation-bar.html" beforeDir="false" afterPath="$PROJECT_DIR$/Workspace/src/components/navigation-bar/navigation-bar.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Workspace/src/components/tool-bar/tool-bar.js" beforeDir="false" afterPath="$PROJECT_DIR$/Workspace/src/components/tool-bar/tool-bar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Workspace/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Workspace/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Workspace/src/scripts/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/Workspace/src/scripts/client/client-main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Workspace/src/scripts/tools/environmentLoader.js" beforeDir="false" afterPath="$PROJECT_DIR$/Workspace/src/scripts/client/environmentLoader.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Workspace/src/scripts/client/client-main.js" beforeDir="false" afterPath="$PROJECT_DIR$/Workspace/src/scripts/client/client-main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Workspace/src/scripts/client/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/Workspace/src/scripts/client/common.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,22 +49,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="javascript.nodejs.core.library.configured.version" value="16.13.2" />
-    <property name="javascript.nodejs.core.library.typings.version" value="16.11.26" />
-    <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="ts.external.directory.path" value="D:\Programs\JetBrains\apps\Rider\ch-0\213.6775.4\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
-    <property name="vue.rearranger.settings.migration" value="true" />
-  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
   <component name="RunManager">
     <configuration name="MainServer" type="NodeJSConfigurationType" path-to-js-file="src/scripts/server/server-main.js" working-dir="$PROJECT_DIR$/Workspace">
       <method v="2" />
@@ -92,6 +81,8 @@
       <workItem from="1647134960928" duration="14332000" />
       <workItem from="1647182495918" duration="5110000" />
       <workItem from="1647280621606" duration="18292000" />
+      <workItem from="1651400931381" duration="4451000" />
+      <workItem from="1651405420596" duration="3676000" />
     </task>
     <servers />
   </component>

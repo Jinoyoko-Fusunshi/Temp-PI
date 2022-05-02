@@ -1,11 +1,14 @@
 const Path = require("path");
 const Common = require("./common");
+const Sensor = require("node-dht-sensor");
 
 // All registered view names from our single web application page.
 const SubpageURLS = [
     "/",
     "/sensors",
 ];
+
+const SensorNotConnected = 0;
 
 // Returns if it's a specific request by looking if the url has a file extension (e.g. *.html).
 function isWebRoute(url) {
@@ -32,6 +35,19 @@ function handleRequests(request, result) {
         return true;
     }
 
+    if(request.url === "/temp"){
+      	result.writeHead(Common.HTTPStatusCodes.Success, {'Content-Type':Common.ContentTypes.HTML});
+
+       	let temp = getTemperature();
+
+	if(temp[0] === SensorNotConnected)
+	  result.end("<p> nothing </p>");
+        else
+          result.end("<p>" + temp[0] + " |  " + temp[1] + "</p>");
+
+	return true;
+    }
+
     return false;
 }
 
@@ -53,8 +69,21 @@ function getTime() {
     return { timeString, dateString };
 }
 
+function getTemperature() {
+  Sensor.read(11, 4, function(err, temperature, humidity) {
+    if (!err) {
+      return { temeprature, humidity };
+    }else{
+      return { SensorNotConnected, SensorNotConnected };
+    }
+  });
+
+  return { SensorNotConnected, SensorNotConnected };
+}
+
 module.exports = {
     SubpageURLS,
     returnBadRequest,
-    handleRequests
+    handleRequests,
+    SensorNotConnected
 }

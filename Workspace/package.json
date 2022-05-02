@@ -17,6 +17,7 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.3",
+    "node-dht-sensor": "^0.4.3",
     "xmlhttprequest": "^1.8.0"
   }
 }

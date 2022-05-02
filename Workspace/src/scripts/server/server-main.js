@@ -1,5 +1,6 @@
 const Common = require("./common.js");
 const Server = require("./controller.js");
+const sensor = require("node-dht-sensor");
 
 const Http = require("http");
 const Path = require("path");

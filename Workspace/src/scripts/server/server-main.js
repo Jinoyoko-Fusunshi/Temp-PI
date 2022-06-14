@@ -18,6 +18,21 @@ function isWebResource(filename) {
     return Common.getFileContentType(filename) !== Common.ContentTypes.NONE;
 }
 
+//MariaDB Connection Code
+const mariadb = require('mariadb');
+const pool = mariadb.createConnection({
+    host:'127.0.0.1',
+    user: 'System',
+    password:'_999999999_',
+    database: 'TempData'
+});
+
+//MariaDB Connection test
+
+
+
+
+
 // Server creation method. Iterates through all requested local files from the 'index.html' file.
 Http.createServer(function(request, result) {
     const IndexPath = "./src/index.html";
@@ -46,4 +61,6 @@ Http.createServer(function(request, result) {
         result.writeHead(Common.HTTPStatusCodes.Success, {'Content-Type':contentType});
         readStream.pipe(result);
     });
-}).listen(BasePort);
+}).listen(BasePort
+
+);

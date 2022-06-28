@@ -1,8 +1,6 @@
 const Path = require("path");
 const Common = require("./common");
 const Sensor = require("node-dht-sensor");
-const Maria = require("mariadb");
-
 
 // All registered view names from our single web application page.
 const SubpageURLS = [
@@ -34,40 +32,34 @@ function handleRequests(request, result) {
 
         return true;
     }else if(request.url === "/temp"){
-	function send(ende) {
-		result.writeHead(Common.HTTPStatusCodes.Success, {'Content-Type':Common.ContentTypes.JSON});
-		result.end(JSON.stringify(ende));
-	}
+	let found = false;
 
+	let res;
 
-	Sensor.read(11, 4, function(err, temperature, humidity) {
-		res = {
-			t : temperature,
-			h : humidity
-		};
+  	Sensor.read(11, 4, function(err, temperature, humidity) {
+    		
+      			console.log(temperature);
+      			res = {
+ 				temp: temperature,
+				hum: humidity
+			};
+    		
+			found = true;
 
-		send(res);
   	});
-	return true;
-    }else if (request.url === "/sql"){
-	const pool = Maria.createPool({
-    		host:'127.0.0.1',
-    		user: 'System',
-    		password:'_999999999_',
-    		database: 'TempData'
-    	});
 
-	pool.getConnection().then(con => {
-		con.query("INSERT INTO temperatur VALUES('2008-11-01', '19:30:10', 20.0, 13.0)")
-		.then((rows) => {
-			console.log(rows);
-			con.end();
-		})
-		.catch(err => {
-			console.log(err);
-			con.end();
-		});
-	});
+Sensor.read(11, 4, function(err, temperature, humidity) {
+    if (!err) {
+      console.log(temperature);
+        res = {
+                temp: temperature,
+                hum: humidity
+        };
+    }
+  });
+
+	if(found)*/
+		return true;
     }
 
     return false;

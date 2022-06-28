@@ -18,25 +18,10 @@ function isWebResource(filename) {
     return Common.getFileContentType(filename) !== Common.ContentTypes.NONE;
 }
 
-//MariaDB Connection Code
-const mariadb = require('mariadb');
-const pool = mariadb.createConnection({
-    host:'127.0.0.1',
-    user: 'System',
-    password:'_999999999_',
-    database: 'TempData'
-});
-
-//MariaDB Connection test
-
-
-
-
-
 // Server creation method. Iterates through all requested local files from the 'index.html' file.
 Http.createServer(function(request, result) {
     const IndexPath = "./src/index.html";
-    
+
     let filePath = "";
 
     // Check URL on it's possible processable types.
@@ -50,14 +35,14 @@ Http.createServer(function(request, result) {
         Server.returnBadRequest(result);
         return;
     }
-    
+
     let contentType = Common.getFileContentType(filePath);
-    
+
     // Bind depending resources written in the 'index.html' to webpage (*.css, *.js, .. files).
     // Only do this when the current URL describes a file request!
     FileSystem.readFile(IndexPath, 'utf8',  function(err, data) {
         const readStream = FileSystem.createReadStream(filePath);
-        
+
         result.writeHead(Common.HTTPStatusCodes.Success, {'Content-Type':contentType});
         readStream.pipe(result);
     });

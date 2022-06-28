@@ -1,5 +1,7 @@
 import {BaseComponent, CSSExtension, HTMLExtension, } from "../../scripts/client/component.js";
 import {BaseURL} from "../../scripts/client/common.js";
+import {HTTPMethods} from "../../scripts/client/common.js";
+import {HTTPStatusCodes} from "../../scripts/client/common.js";
 
 const Views = {
     Home: "home",
@@ -35,11 +37,26 @@ export class ContentViewer extends BaseComponent {
         if(routeName === "/")
             tag.setAttribute(ViewerAttribute, Views.Home);
         else if(routeName === "/sensors")
-            tag.setAttribute(ViewerAttribute, Views.Sensors);
+	{
+		let request = new XMLHttpRequest();
+        	let result;
+
+        	request.onreadystatechange = function() {
+            		if (this.status === HTTPStatusCodes.Success)
+                		result = JSON.parse(this.responseText);
+            		else if(this.status === HTTPStatusCodes.NotFound)
+                		result = null;
+        	}
+
+        	request.open(HTTPMethods.Get, "/sql", false);
+        	request.send();
+
+		tag.setAttribute(ViewerAttribute, Views.Sensors);
+	}
 
         this._childTag = tag.getAttribute(ViewerAttribute);
     }
-    
+
     getChildSourcePath() {
         return this._childTag + "/" + this._childTag + HTMLExtension;
     }

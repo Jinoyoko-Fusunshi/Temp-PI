@@ -68,6 +68,11 @@ function handleRequests(request, result) {
 			con.end();
 		});
 	});
+
+	result.writeHead(Common.HTTPStatusCodes.Success, {'Content-Type':Common.ContentTypes.HTML});
+        result.end("<p>success</p>");
+
+	return true;
     }
 
     return false;
